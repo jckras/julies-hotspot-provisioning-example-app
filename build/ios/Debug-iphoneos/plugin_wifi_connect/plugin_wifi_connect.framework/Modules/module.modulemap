@@ -1,0 +1,11 @@
+framework module plugin_wifi_connect {
+  umbrella header "plugin_wifi_connect-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module plugin_wifi_connect.Swift {
+  header "plugin_wifi_connect-Swift.h"
+  requires objc
+}
