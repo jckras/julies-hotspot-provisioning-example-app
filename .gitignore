@@ -1,0 +1,63 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+
+# Rivet related
+.rivet/
+
+# IntelliJ related
+.idea/
+*.iml
+
+# VS Code related
+.vscode/
+
+# Flutter generated
+flutter_export_environment.sh
+
+# Android related
+android/.gradle/
+android/captures/
+android/app/build/
+*.gradle
+local.properties
+*.keystore
+*.jks
+
+# iOS/Xcode related
+**/Pods/
+**/DerivedData/
+**/build/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata/
+*.xcconfig
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# macOS related
+macos/Flutter/ephemeral/
+macos/Flutter/GeneratedPluginRegistrant.swift
+
+# Windows related
+windows/flutter/ephemeral/
+windows/Flutter/GeneratedPluginRegistrant.*
+
+# Linux related
+linux/flutter/ephemeral/
+linux/Flutter/GeneratedPluginRegistrant.*
+
+# Web related
+web/.dart_tool/
+web/.DS_Store
+
+# Misc
+.DS_Store
+*.log
+
+# Env files
+.env
+.env.*
